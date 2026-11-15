@@ -172,8 +172,8 @@ const FIX = [
 ['f28','t10','He made a great progress in his study.','made','a','great','progress',1,'progress 不可数 → 去掉 a。'],
 ['f29','t10','It is high time that we go to bed.','is','high time','we go','to bed',2,'It is high time that + 过去式 → went。'],
 ['f30','t10','I would rather you stay at home tomorrow.','would rather','you','stay','tomorrow',2,'would rather + sb + 过去式 → stayed。'],
-/* ===== 2026 年河南专升本公共英语真题 · Part V 改错（题号 61–70，答案据官方答案版） ===== */
-['f31','t2','Yesterday, they go��A） to（B） the library to（C） study（D） English.','go','to（第一个）','to（第二个）','study',0,'2026 真题 61｜Yesterday 是明确过去时间，谓语用过去式 → went。句意：昨天他们去图书馆学英语。'],
+/* ===== 2026 年河南专升本公共英语真题 · Part V 改错（题号 61-70，答案据官方答案版） ===== */
+['f31','t2','Yesterday, they go（A） to（B） the library to（C） study（D） English.','go','to（第一个）','to（第二个）','study',0,'2026 真题 61｜Yesterday 是明确过去时间，谓语用过去式 → went。句意：昨天他们去图书馆学英语。'],
 ['f32','t9','He said afterward（A） that it had been（B） the most（C） unforgettable experiences（D） of his life.','afterward','had been','most','experiences',3,'2026 真题 62｜it 指一件经历，用单数名词 → experience。句意：他后来说那是他一生中最难忘的经历。'],
 ['f33','t6','She is（A） a（B） honest person who never lies（C）, even（D） when it is hard.','is','a','never lies','even',1,'2026 真题 63｜honest 首音是元音音素，冠词用 an → a 改 an。'],
 ['f34','t10','Francis is bounded（A） and determined（B） to win at least（C） five races（D） this year.','bounded','determined','at least','five races',0,'2026 真题 64｜be bound to do 是固定搭配，bound and determined = 下定决心 → bounded 改 bound。'],
