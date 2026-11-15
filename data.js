@@ -127,7 +127,7 @@ const WORDS = [
 ['w120','D','except that / apart from','除……之外','注意保留的部分才是重点'],
 ];
 
-/* ================= 数据：改错十类 + 30 道题 ================= */
+/* ================= 数据：改错十类 + 40 道题（f31–f40 为 2026 真题） ================= */
 const TAGS = {
   t1:['主谓一致','主语单复数决定谓语：The number of 用单数；each/everybody 用单数；neither...nor 就近'],
   t2:['时态语态','看时间状语定时间：yesterday 用过去时；by+过去用过去完成；said 后从句用过去将来'],
@@ -171,7 +171,18 @@ const FIX = [
 ['f27','t9','The news are very exciting.','The news','are','very','exciting',1,'news 谓语用单数 → is。'],
 ['f28','t10','He made a great progress in his study.','made','a','great','progress',1,'progress 不可数 → 去掉 a。'],
 ['f29','t10','It is high time that we go to bed.','is','high time','we go','to bed',2,'It is high time that + 过去式 → went。'],
-['f30','t10','I would rather you stay at home tomorrow.','would rather','you','stay','tomorrow',2,'would rather + sb + 过去式 → stayed。']
+['f30','t10','I would rather you stay at home tomorrow.','would rather','you','stay','tomorrow',2,'would rather + sb + 过去式 → stayed。'],
+/* ===== 2026 年河南专升本公共英语真题 · Part V 改错（题号 61–70，答案据官方答案版） ===== */
+['f31','t2','Yesterday, they go��A） to（B） the library to（C） study（D） English.','go','to（第一个）','to（第二个）','study',0,'2026 真题 61｜Yesterday 是明确过去时间，谓语用过去式 → went。句意：昨天他们去图书馆学英语。'],
+['f32','t9','He said afterward（A） that it had been（B） the most（C） unforgettable experiences（D） of his life.','afterward','had been','most','experiences',3,'2026 真题 62｜it 指一件经历，用单数名词 → experience。句意：他后来说那是他一生中最难忘的经历。'],
+['f33','t6','She is（A） a（B） honest person who never lies（C）, even（D） when it is hard.','is','a','never lies','even',1,'2026 真题 63｜honest 首音是元音音素，冠词用 an → a 改 an。'],
+['f34','t10','Francis is bounded（A） and determined（B） to win at least（C） five races（D） this year.','bounded','determined','at least','five races',0,'2026 真题 64｜be bound to do 是固定搭配，bound and determined = 下定决心 → bounded 改 bound。'],
+['f35','t7','This educational method is（A） so（B） effective as（C） the previous one（D）.','is','so','as','the previous one',1,'2026 真题 65｜原级比较 as + 形容词原级 + as → so 改 as。句意：这种教学法和之前那种一样有效。'],
+['f36','t4','The government（A） needs to（B） recognize（C） fully（D） the dimensions of the problem.','The government','needs to','recognize','fully',3,'2026 真题 66｜修饰名词 dimensions 要用形容词 → fully 改 full。'],
+['f37','t6','The teacher praised（A） my sister and I（B） for our excellent work（C） on that project（D）.','praised','I','for our excellent work','on that project',1,'2026 真题 67｜和 my sister 并列作 praised 的宾语，用宾格 → I 改 me。'],
+['f38','t1','Each（A） visitor（B） were allowed（C） about one minute（D） to view the pandas.','Each','visitor','were allowed','about one minute',2,'2026 真题 68｜主语中心词 Each visitor 是单数，谓语用单数 → were allowed 改 was allowed。'],
+['f39','t8','What（A） we should（B） protect the Great Wall is（C） of（D） every citizen.','What','we should','is','of',0,'2026 真题 69｜主语从句成分完整，用 that 引导 → What 改 That。句意：保护长城是每个公民的责任。'],
+['f40','t2','The cooperation on intellectual（A） property protection will be（B） continuously（C） deepen（D）.','intellectual','be','continuously','deepen',3,'2026 真题 70｜will be + 过去分词构成将来被动，合作是被加深的 → deepen 改 deepened。']
 ];
 
 const EXAM_DATE = '2027-03-20';
