@@ -1,2 +1,0 @@
-// probe line
-const A = 'Yesterday, they go(A) to(B) the library to(C) study(D) English.';
