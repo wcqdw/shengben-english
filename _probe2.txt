@@ -1,4 +1,0 @@
-1|Yesterday, they go（A） to（B） the library to（C） study（D） English.
-2|Yesterday, they go[A] to[B] the library to[C] study[D] English.
-3|Yesterday, they go (A) to (B) the library to (C) study (D) English.
-4|Yesterday, they go to the library to study English. A=go, B=to, C=to, D=study
